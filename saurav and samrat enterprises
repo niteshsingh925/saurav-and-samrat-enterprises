@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saurav and Samrat Enterprises</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-green-800 to-green-600 text-white shadow-lg">
+    <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+      <h1 class="text-3xl font-extrabold">Saurav & Samrat Enterprises</h1>
+      <nav class="space-x-6 text-lg">
+        <a href="#products" class="hover:text-yellow-400">Products</a>
+        <a href="#about" class="hover:text-yellow-400">About</a>
+        <a href="#contact" class="hover:text-yellow-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-white text-center py-20">
+    <h2 class="text-5xl font-extrabold text-gray-800 mb-4">Affordable & Quality Household Items</h2>
+    <p class="text-xl text-gray-600 mb-6">Everything you need to make your home smarter, cleaner, and cozier.</p>
+    <a href="#products" class="bg-green-600 text-white px-8 py-3 text-lg font-semibold rounded-full hover:bg-green-700 transition">Shop Now</a>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-4xl font-bold text-center mb-12">Our Products</h3>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+          <img src="https://via.placeholder.com/300x200" alt="Cleaning Supplies" class="rounded mb-4">
+          <h4 class="text-2xl font-semibold mb-2">Cleaning Supplies</h4>
+          <p>Premium mops, brooms, and detergents for a spotless home.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+          <img src="https://via.placeholder.com/300x200" alt="Kitchen Essentials" class="rounded mb-4">
+          <h4 class="text-2xl font-semibold mb-2">Kitchen Essentials</h4>
+          <p>Everything from cookware to storage containers and more.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+          <img src="https://via.placeholder.com/300x200" alt="Storage Solutions" class="rounded mb-4">
+          <h4 class="text-2xl font-semibold mb-2">Storage Solutions</h4>
+          <p>Smart organizers and bins for every room in your home.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h3 class="text-4xl font-bold mb-6">About Us</h3>
+      <p class="text-lg text-gray-700">Saurav and Samrat Enterprises is a trusted supplier of household goods. With a commitment to quality and customer satisfaction, we provide a wide range of affordable items that meet everyday needs.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-100">
+    <div class="max-w-xl mx-auto px-6 text-center">
+      <h3 class="text-4xl font-bold mb-6">Get in Touch</h3>
+      <form class="space-y-5">
+        <input type="text" placeholder="Your Name" class="w-full p-3 rounded border border-gray-300" required />
+        <input type="email" placeholder="Your Email" class="w-full p-3 rounded border border-gray-300" required />
+        <textarea placeholder="Your Message" rows="5" class="w-full p-3 rounded border border-gray-300" required></textarea>
+        <button type="submit" class="bg-green-600 text-white px-6 py-3 font-semibold rounded hover:bg-green-700 transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-900 text-white py-6 text-center text-sm">
+    © 2025 Saurav and Samrat Enterprises. All rights reserved.
+  </footer>
+
+</body>
+</html>
